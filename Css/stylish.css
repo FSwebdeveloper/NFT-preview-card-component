@@ -1,0 +1,206 @@
+
+body
+{
+    text-align: center;
+}
+
+
+.bg-color
+{
+   background-color:hsl(217, 54%, 11%);
+   margin: 0%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 660px;
+   
+}
+
+.card-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-color
+{
+  
+  width: 275px;
+  height:274px;
+  margin-top: 47px;
+  position: absolute;
+  border-radius: 3%;
+  background: transparent;
+
+   
+}
+
+.hover-color:hover
+{
+    background-color:hsl(178, 100%, 50%);
+    opacity: 60%;
+        
+}
+
+ 
+.v-icon-div
+{
+    text-align: center;
+    position: absolute;
+    margin-top:-42.50%;
+    margin-left: 42.50%;
+    
+    
+    
+   
+    
+}
+
+.card
+{
+    background-color: hsl(216, 50%, 16%);
+    width: 320px;
+    height: 545px;
+    margin: auto;
+    border-radius:3%;
+    position: relative;
+    /* top: 50px; */
+}
+
+.equili-img
+{
+    width: 86%;
+    border-radius:3%;
+    position: relative;
+    top: 23px;
+    
+    
+}
+
+.card-body
+{
+    text-align: left;
+    padding: 6.5% 6%;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.avater-img
+{
+    width:27px;
+    height:27px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 45%;
+    
+     
+}
+
+.avater-text
+{
+    position: relative;
+    left: 14px;
+    bottom: 10px;
+    color: hsl(215, 51%, 70%);
+    word-spacing:0.75px;
+
+}
+
+.card-footer
+{
+    
+    text-align: left;
+    padding: 1% 5%;
+    display:flex;
+    position: relative;
+    bottom: 25px;
+    
+
+}
+
+.p
+{
+    display:inline-flex;
+    position: relative;
+    bottom: 7px;
+    
+}
+
+.time
+{
+    position: relative;
+    left: 101px;
+}
+
+h1
+{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+h1:hover
+{
+    color:hsl(178, 100%, 50%);
+}
+
+.body-text
+{
+    color: hsl(215, 51%, 70%);
+    
+}
+
+.eth-text
+{
+    color:hsl(178, 100%, 50%);
+    
+}
+
+hr
+{
+    color: hsl(215, 32%, 27%);
+    border-style: none;
+    border-top-style: solid;
+    border-width: 2px;
+    width: 91%;
+    position: relative;
+    bottom: 27px;
+    
+
+    
+}
+
+span
+{
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover
+{
+    color: hsl(178, 100%, 50%);
+}
+
+.icon
+{
+    position: relative;
+    top: 3px;
+    
+}
+
+
+@media (max-width:375px){
+
+    body 
+    {
+        height: 700px;
+    }
+
+    
+
+}
+
+
+
+
+
+
