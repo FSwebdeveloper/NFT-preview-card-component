@@ -12,7 +12,7 @@ body
    display: flex;
    align-items: center;
    justify-content: center;
-   height: 660px;
+   min-height:100vh;
    
 }
 
@@ -51,10 +51,17 @@ body
     margin-top:-42.50%;
     margin-left: 42.50%;
     
+   
+    
     
     
    
     
+}
+
+.hs-icon
+{
+    visibility: hidden;
 }
 
 .card
@@ -193,6 +200,7 @@ span:hover
     body 
     {
         height: 700px;
+        
     }
 
     
